@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project One</title>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script defer src="swiper.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="home">
+        Andaiye Gibson
+      </div>
+      <nav>
+        <a href="#works">Works</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div id="containerText">
+        <h1>
+          <span style="color: #f2f2f2;">&lt</span
+          ><span style="color: #ff2079;">h1</span
+          ><span style="color: #f2f2f2;">&gt</span>
+          Hi. I'm Andaiye.
+          <span style="color: #f2f2f2;">&lt/</span
+          ><span style="color: #ff2079;">h1</span
+          ><span style="color: #f2f2f2;">&gt</span>
+        </h1>
+        <h2 class="intro">
+          <span style="color: #f2f2f2;">&lt</span
+          ><span style="color: #ff2079;">h2</span
+          ><span style="color: #f2f2f2;">&gt</span>
+          Student. UX/UI designer. Frontend developer.
+          <span style="color: #f2f2f2;">&lt/</span
+          ><span style="color: #ff2079;">h2</span
+          ><span style="color: #f2f2f2;">&gt</span>
+        </h2>
+      </div>
+    </div>
+    <section id="works">
+      <h2>
+        .Works
+        <span style="color: #f2f2f2;">{</span>
+      </h2>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="works">
+              <img
+                class="screenCapture"
+                src="budget.png"
+                alt="BudgetUni App Screen Capture"
+              />
+              <p>
+                &lt!-- BudgetUni is an expense tracker and budget manager aimed
+                to help college students and young adults solve the problem of
+                overspending by keeping track of everyday and recurring
+                expenses. Its main goal is to help users learn about personal
+                finance and improve financial literacy by organizing personal
+                expenses. Its most unique feature also accomplishes this goal by
+                allowing users to share with their friends and family to track
+                and set budget goals together. --&gt
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="works">
+              <img
+                class="screenCapture"
+                src="aim.png"
+                alt="Aim App Screen Capture"
+              />
+              <p>
+                &lt!-- Aim is a goal management and sharing app that will allow
+                you to create life goals, keep track of them, share them with
+                others and find those who share the same goals so that users can
+                support each other in the completion of such goals. --&gt
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="works">
+              <img
+                class="screenCapture"
+                src="buzz2.png"
+                alt="Buzzstop App Screen Capture"
+              />
+              <p>
+                &lt!-- Have you ever tried to take a short nap on the train only
+                to wake up and find yourself at the end of the line? BuzzStop
+                helps passengers wake up just before the train arrives at their
+                station? --&gt
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <section id="about">
+      <h2>
+        .About
+        <span style="color: #f2f2f2;">{</span>
+      </h2>
+      <div class="aboutMe">
+        <div class="aboutText">
+          <p>
+            &lt!-- I am a Univeristy of Miami student studying Interactive Media
+            and Spanish with a minor in Computer Science. My goal is to become a
+            full time UX/UI Designer and Frontend Developer. I am fluent in both
+            English and Spanish and and proficient in many coding languages such
+            as C++, C#, Java, Python, HTML, and CSS as well as knowledge in
+            Adobe Photoshop, Illustrator, Unity, Visual Studio Code, Canva,
+            GitHub, and Figma. --&gt
+          </p>
+          <a href="Andaiye_Resume.pdf" attributes-list download
+            >Click here for resume</a
+          >
+        </div>
+        <div>
+          <img class="profile" src="Square_Profile.png" alt="Profile Photo" />
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section2">
+      <h2>
+        .Contact Me
+        <span style="color: #f2f2f2;">{</span>
+      </h2>
+      <div class="containerTwo">
+        <form action="action_page.php">
+          <input type="text" id="name" name="name" placeholder="*Name" />
+
+          <input type="text" id="email" name="email" placeholder="*Email" />
+
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Message"
+            style="height: 200px;"
+          ></textarea>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <footer>
+      <span> Connect with me</span>
+      <div>
+        <a href="www.linkedin.com/in/andaiye-gibson/">
+          <img class="logo" src="linkedin.png" alt="Linkedin logo"
+        /></a>
+
+        <a href="https://github.com/agibs317">
+          <img class="logo" src="github.png" alt="Github logo"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
