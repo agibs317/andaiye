@@ -97,6 +97,11 @@ a {
   width: 300px;
 }
 
+.screenCapture2 {
+  height: 150px;
+  width: 300px;
+}
+
 a:hover {
   color: #e92efb;
 }
